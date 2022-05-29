@@ -5,6 +5,7 @@ import App from './App';
 import Expenses from './routes/expensesPage/Expenses';
 import Invoices from './routes/invoicesPage/Invoices';
 import Invoice from './routes/invoicesPage/Invoice';
+import About from './routes/aboutPage/About';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
@@ -13,6 +14,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
+        <Route path="about" element={<About />} />
         <Route path="expenses" element={<Expenses />} />
         <Route path="invoices" element={<Invoices />}>
           <Route
