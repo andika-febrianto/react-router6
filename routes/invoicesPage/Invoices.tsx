@@ -23,6 +23,7 @@ const Invoices = () => {
           </Link>
         ))}
       </nav>
+      <Outlet/>
     </div>
   );
 };
