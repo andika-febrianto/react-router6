@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import './style.css';
 
 export default function App() {
@@ -15,6 +15,7 @@ export default function App() {
         <Link to="/Invoices">Invoice</Link> |{' '}
         <Link to="/Expenses">Expenses</Link>
       </nav>
+      <Outlet />
     </div>
   );
 }
