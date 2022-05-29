@@ -12,8 +12,8 @@ export default function App() {
           paddingBottom: '1rem',
         }}
       >
-        <Link to="/invoices">Invoice</Link> |{' '}
-        <Link to="/expenses">Expenses</Link>
+        <Link to="/Invoices">Invoice</Link> |{' '}
+        <Link to="/Expenses">Expenses</Link>
       </nav>
     </div>
   );
